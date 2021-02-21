@@ -5,3 +5,6 @@ C:\Users\admin\Desktop\MSD\MSD_SEM2\Software Quality Assurance Techn\assign1_rec
 C:\Users\admin\Desktop\MSD\MSD_SEM2\Software Quality Assurance Techn\assign1_rect\assign1_rect\obj\Debug\assign1_rect.csproj.CoreCompileInputs.cache
 C:\Users\admin\Desktop\MSD\MSD_SEM2\Software Quality Assurance Techn\assign1_rect\assign1_rect\obj\Debug\assign1_rect.exe
 C:\Users\admin\Desktop\MSD\MSD_SEM2\Software Quality Assurance Techn\assign1_rect\assign1_rect\obj\Debug\assign1_rect.pdb
+C:\Users\admin\Desktop\MSD\MSD_SEM2\Software Quality Assurance Techn\assign1_rect\assign1_rect\bin\Debug\nunit.framework.dll
+C:\Users\admin\Desktop\MSD\MSD_SEM2\Software Quality Assurance Techn\assign1_rect\assign1_rect\bin\Debug\nunit.framework.xml
+C:\Users\admin\Desktop\MSD\MSD_SEM2\Software Quality Assurance Techn\assign1_rect\assign1_rect\obj\Debug\assign1_rect.csproj.CopyComplete
