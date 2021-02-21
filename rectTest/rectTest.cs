@@ -47,8 +47,7 @@ namespace rectTest
         [Test]
         public void test_setLength()
         {
-            //arrange
-            
+                      
 
             Rectangle rectangle = new Rectangle();
 
@@ -62,9 +61,7 @@ namespace rectTest
         [Test]
         public void test_setWidth()
         {
-            //arrange
-
-
+           
             Rectangle rectangle = new Rectangle();
 
             //act
