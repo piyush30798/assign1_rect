@@ -58,5 +58,49 @@ namespace rectTest
             //assert
             Assert.AreEqual(setLength, 8);
         }
+
+        [Test]
+        public void test_setWidth()
+        {
+            //arrange
+
+
+            Rectangle rectangle = new Rectangle();
+
+            //act
+            int setWidth = rectangle.SetLength(6);
+
+            //assert
+            Assert.AreEqual(setWidth, 6);
+        }
+        [Test]
+        public void test_Perimeter()
+        {
+            //arrenge
+            int length = 6;
+            int width = 2;
+            Rectangle rectangle = new Rectangle(length, width);
+
+            //act
+            int result_perimeter = rectangle.GetPerimeter();
+
+            //assert
+            Assert.AreEqual(result_perimeter, 16);
+        }
+
+        [Test]
+        public void test_Area()
+        {
+            //arrenge
+            int length = 2;
+            int width = 2;
+            Rectangle rectangle = new Rectangle(length, width);
+
+            //act
+            int result_area = rectangle.GetArea();
+
+            //assert
+            Assert.AreEqual(result_area, 4);
+        }
     }
 }
