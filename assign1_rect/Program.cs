@@ -91,13 +91,21 @@ namespace assign1_rect
 
                     case 2:
 
-                        Console.WriteLine("Enter new length for the recatngle :");
+                        Console.WriteLine("Enter new length for the rectangle :");
                         int newleng = Convert.ToInt32(Console.ReadLine());
-                        rectangle.SetLength(newleng);
-                        Console.WriteLine("Length of the rectangle updated.");
-                        break;
+                        if(newleng<1)
+                        {
+                            Console.WriteLine("Please enter length greater than 0.");
+                            break;
+                        }
+                        else
+                        {
+                            rectangle.SetLength(newleng);
+                            Console.WriteLine("Length of the rectangle updated.");
+                            break;
 
-
+                        }
+                        
                     case 3:
 
                         int rectwidt = rectangle.GetWidth();
@@ -108,10 +116,18 @@ namespace assign1_rect
 
                         Console.WriteLine("Enter new width for the recatngle :");
                         int newwidth = Convert.ToInt32(Console.ReadLine());
-                        rectangle.SetWidth(newwidth);
-                        Console.WriteLine("Width of the rectangle updated.");
-                        break;
-
+                        if(newwidth<1)
+                        {
+                            Console.WriteLine("Please enter width greater than 0.");
+                            break;
+                        }
+                        else
+                        {
+                            rectangle.SetWidth(newwidth);
+                            Console.WriteLine("Width of the rectangle updated.");
+                            break;
+                        }
+          
                     case 5:
 
                         int rectPeri = rectangle.GetPerimeter();
