@@ -17,7 +17,7 @@ namespace rectTest
         {
             //arrange
             int length = 4;
-            int width = 1;
+            int width = 2;
 
             Rectangle rectangle = new Rectangle(length, width);
 
@@ -25,7 +25,7 @@ namespace rectTest
             int result_length = rectangle.GetLength();
 
             //assert
-            Assert.AreEqual(result_length, 4);
+            Assert.AreEqual(result_length, 6);
         }
 
         [Test]
